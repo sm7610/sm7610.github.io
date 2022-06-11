@@ -1755,14 +1755,14 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 144px;
-			height: 144px;
+			margin-left: auto;
+  			margin-right: auto;
 			background: #212528;
 		}
 
 			.image.avatar48 img {
-				width: 144px;
-				height: 144px;
+/*				width: 144px;
+				height: 144px;*/
 			}
 
 		.image.fit {
@@ -2048,7 +2048,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background: #222629 url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
-		color: #fff;
+		color: #fffff8;
 		height: 100%;
 		left: 0;
 		overflow-y: auto;
@@ -2091,7 +2091,7 @@ input, select, textarea {
 			}
 
 				#header .icons a:hover {
-					color: #fff;
+					color: #fffff8;
 				}
 
 	#logo {
@@ -2099,14 +2099,16 @@ input, select, textarea {
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
+		text-align: center;
 	}
 
 		#logo h1 {
 			position: relative;
-			color: #fff;
+			color: #fffff8;
 			font-weight: 600;
 			font-size: 1.1em;
 			line-height: 1.1em;
+			text-align: center;
 		}
 
 		#logo p {
@@ -2165,7 +2167,7 @@ input, select, textarea {
 				#nav ul li a.active {
 					background: rgba(0, 0, 0, 0.15);
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-					color: #fff;
+					color: #fffff8;
 				}
 
 					#nav ul li a.active span:before {
@@ -2227,12 +2229,12 @@ input, select, textarea {
 				}
 
 				#main > section.dark strong {
-					color: #fff;
+					color: #fffff8;
 					border-color: inherit;
 				}
 
 				#main > section.dark a {
-					color: #fff;
+					color: #fffff8;
 					border-color: inherit;
 				}
 
@@ -2525,7 +2527,7 @@ input, select, textarea {
 					#headerToggle .toggle:before {
 						text-decoration: none;
 						content: '\f0c9';
-						color: #fff;
+						color: #fffff8;
 						font-size: 18px;
 						background: rgba(128, 136, 144, 0.5);
 						border-radius: 0.35em;
