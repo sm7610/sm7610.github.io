@@ -2267,6 +2267,7 @@ input, select, textarea {
 
 			#main > section.shruti {
 				color: #fffff8;
+				text-align: left;
 				background-color: #111111;
 			}
 
@@ -2360,8 +2361,9 @@ input, select, textarea {
 			}
 
 			#logo .image {
-				position: relative;
-				margin: 0 0 0.5em 0;
+				position: absolute;
+				/*margin: 0.5em 0 0.5em 0;*/
+				margin-left: 80%;
 			}
 
 			#nav ul li a {
