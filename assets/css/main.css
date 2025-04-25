@@ -238,6 +238,7 @@ h2 {
 	font-size: 2em;
 	letter-spacing: -1px;
 	color: #ffe6cd;
+	color: #1DCC68;
 }
 
 h2.alt {
@@ -249,6 +250,7 @@ h2.alt strong {
 }
 
 h3 {
+	/* color: #75E6FF; */
 	font-size: 1.3em;
 }
 
