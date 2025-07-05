@@ -237,8 +237,7 @@ h6 a strong {
 h2 {
 	font-size: 2em;
 	letter-spacing: -1px;
-	color: #ffe6cd;
-	/* color: #1DCC68; */
+	color: #f9ad4a;
 }
 
 h2.alt {
@@ -289,7 +288,7 @@ a {
 }
 
 a:hover {
-	color: #E27689;
+	color: #f5a092;
 	border-bottom-color: rgba(255, 255, 255, 0);
 }
 
@@ -2294,7 +2293,7 @@ button:active,
 }
 
 #nav ul li a.active span:before {
-	color: #e27689;
+	color: #f5a092;
 }
 
 /* Footer */
